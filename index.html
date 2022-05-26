@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fighting Game</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script defer src="./js/sprite.js"></script>
+        <script defer src="./js/player.js"></script>
+        <script defer src="./js/index.js"></script>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div class="container">
+            <div class="top-container">
+                <div class="player-health-wrapper">
+                    <div class="player-health-background"></div>
+                    <div id="playerHealth" class="player-health"></div>
+                </div>
+                <div id="gameTimer" class="game-timer"></div>
+                <div class="enemy-health-wrapper">
+                    <div class="enemy-health-background"></div>
+                    <div id="enemyHealth" class="enemy-health"></div>
+                </div>
+            </div>
+            <div id="gameText" class="game-text"></div>
+            <canvas></canvas>
+        </div>
+    </body>
+</html>
